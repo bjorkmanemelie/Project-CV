@@ -11,6 +11,10 @@ body {
   background-color: whitesmoke;
   height: 100vh;
 }
+img {
+  width: 100px;
+  border-radius: 10px;
+}
 
 .h1 {
   font-size: 12px;
