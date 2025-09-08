@@ -38,6 +38,52 @@ p {
   color: #5a5a58;
 }
 
+.navbar {
+  background-color: #5a5a58;
+  padding: 20px;
+  margin: 50px;
+  height: 5rem;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #e3dbb3;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+nav ul li a:hover {
+  color: #4362f0;
+  background-color: whitesmoke;
+  border-radius: 10px;
+}
+
+.logo {
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: #5a5a58;
+}
+
+.nav-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+.nav-header img {
+  width: 100px;
+  /* height: 100px; */
+}
+
 .nav-header button {
   background: #5a5a58;
   color: #e3dbb3;
@@ -50,7 +96,7 @@ p {
 
 .textinfooter {
   font-family: sans-serif;
-  color: darkgrey;
+  color: whitesmoke;
   margin-top: 100%;
   font-size: 0.9rem;
   font-weight: bold;
