@@ -25,17 +25,17 @@ img {
 
 h2 {
   font-size: 28px;
-  color: #5a5a58;
+  color: #e3dbb3;
 }
 
 h3 {
   font-size: 28px;
-  color: #5a5a58;
+  color: #e3dbb3;
 }
 
 p {
   font-size: 16px;
-  color: #5a5a58;
+  color: #e3dbb3;
 }
 
 .navbar {
@@ -96,7 +96,7 @@ nav ul li a:hover {
 
 .textinfooter {
   font-family: sans-serif;
-  color: whitesmoke;
+  color: #e3dbb3;
   margin-top: 100%;
   font-size: 0.9rem;
   font-weight: bold;
