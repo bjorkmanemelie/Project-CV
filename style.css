@@ -15,7 +15,7 @@ body {
     flex-direction: column;
 }
 
-/* Navbar */
+
 .navbar {
     background-color: #5a5a58;
     padding: 20px;
@@ -50,7 +50,7 @@ body {
     border-radius: 50%;
 }
 
-/* Header */
+
 .header {
     text-align: center;
     padding: 50px 20px;
@@ -70,7 +70,7 @@ body {
     color: #5a5a58;
 }
 
-/* Main content */
+
 main {
     flex: 1;
     max-width: 1200px;
