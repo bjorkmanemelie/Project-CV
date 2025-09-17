@@ -15,7 +15,7 @@ body {
     flex-direction: column;
 }
 
-
+/* Navbar */
 .navbar {
     background-color: #5a5a58;
     padding: 20px;
@@ -50,7 +50,7 @@ body {
     border-radius: 50%;
 }
 
-
+/* Header */
 .header {
     text-align: center;
     padding: 50px 20px;
@@ -70,7 +70,7 @@ body {
     color: #5a5a58;
 }
 
-
+/* Main content */
 main {
     flex: 1;
     max-width: 1200px;
@@ -91,6 +91,13 @@ main {
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+/* Hover-effekt för sections - blir större */
+.section:hover {
+    transform: scale(1.05);
 }
 
 .section h2 {
@@ -125,6 +132,13 @@ main {
     padding: 30px;
     border-radius: 10px;
     margin: 30px 0;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+/* Hover-effekt för quote - blir större */
+.quote:hover {
+    transform: scale(1.05);
 }
 
 
@@ -137,7 +151,7 @@ footer {
     font-size: 12px;
 }
 
-
+/* Responsiv design */
 @media (max-width: 768px) {
     .logo {
         font-size: 2rem;
@@ -163,5 +177,4 @@ footer {
     body {
         font-size: 2rem;
     }
-
 }
