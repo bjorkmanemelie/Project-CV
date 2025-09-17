@@ -1,85 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="flexbox.style.css">
     <title>E.Björkman</title>
 </head>
 
 <body>
+
     <nav class="navbar">
-        <ul class="navbar.links">
-            <li><a href="#">HOME</a></li>
-            <li><a href="https://www.linkedin.com/in/emelie-bj%C3%B6rkman-06826b138/"><img alt="linkedIn logo"
-                        src="/images/linkedIn.png" width="80" height="80"></a></li>
+        <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">OM MIG</a></li>
+            <li><a href="#experience">ERFARENHET</a></li>
+            <li><a href="https://www.linkedin.com/in/emelie-bj%C3%B6rkman-06826b138/" target="_blank">
+                    <img src="/images/linkedIn.png" alt="LinkedIn profil">
+                </a></li>
         </ul>
     </nav>
 
-    <header>
-        <div class="nav-header">
-            <div class="logo">Emelie Björkman</div>
-        </div>
 
+    <header class="header" id="home">
+        <div class="logo">Emelie Björkman</div>
+        <div class="subtitle">FULLSTACK JAVASCRIPT STUDENT</div>
     </header>
 
+
     <main>
-        <div class="h1">FULLSTACK JAVASCRIPT STUDENT</div>
+
+        <section class="section" id="about">
+            <h2>OM MIG</h2>
+            <img src="images/1680022918.672724-3F665F20-CFFB-4987-8697-61F70E4E5742.jpeg" alt="Profilbild av Emelie"
+                class="profile-img">
+            <p>Jag heter Emelie och kommer från Kristianstad. Just nu studerar jag Fullstack JavaScript och utvecklar
+                mina färdigheter inom webbutveckling.</p>
+            <p>Jag brinner för att lära mig nya teknologier och att skapa användarvänliga webbapplikationer.</p>
+        </section>
 
 
+        <section class="section" id="experience">
+            <h2>ERFARENHET</h2>
+            <p><strong>Utbildning:</strong> Handel & administration på Söderportgymnasiet</p>
+            <p><strong>Adidas Group AB (2014-2017):</strong> Jag var med och öppnade Adidas nya butik i Mall of
+                Scandinavia, där jag arbetade som säljare och utvecklade mina kundservicefärdigheter.</p>
+        </section>
 
-        <div class="flex-container">
-            <div class="flex-box">
 
-                <h2>ABOUT ME</h2>
+        <section class="section">
+            <h2>MIN MOTIVATION</h2>
+            <p>Jag tror på hårt arbete och ständig utveckling. Varje utmaning är en möjlighet att växa och lära sig
+                något nytt.</p>
+        </section>
 
-                <img src="images/1680022918.672724-3F665F20-CFFB-4987-8697-61F70E4E5742.jpeg" alt="f´pic of Em"
-                    width="90" height="120">
-                <p>Jag är från Kristianstad</p>
-            </div>
+
+        <div class="quote">
+            "NOTHING WORTH HAVING COMES EASY"
         </div>
-        <div class="flex-container">
-            <div class="flex-box">
-
-                <h2>EXPERIENCES</h2>
-
-                <p><b>Utbildning:</b>Handel & administration på Söderportgymnasiet</p>
-
-                <p><b>Adidas Group AB. 2014-2017</b>Jag var med och öppnade Adidas nya butik i Mall of Scandivia,
-                    där jag arbetade som </p>
-            </div>
-            <div class="flex-container">
-                <div class="flex-box">
-
-
-                    <h2>MY MOTIVATION</h2>
-
-                </div>
-            </div>
-
-            <div class="flex-container">
-                <div class="flex-box">
-                    <h2>
-
-                        <p>'NOTHING WORTH HAVING COMES EASY'</p>
-                    </h2>
-
-                </div>
     </main>
 
 
-
-
-
-
-
-    <footer id="footer">
-        <div class="textinfooter">
-
-            <p>Copyright E.Björkman 2025</p>
-        </div>
+    <footer>
+        <p>Copyright © Emelie Björkman 2025</p>
     </footer>
 
 </body>
