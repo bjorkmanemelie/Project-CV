@@ -23,7 +23,7 @@ body {
 .navbar ul {
   list-style: none;
   display: flex;
-  justify-content: space-around;
+  justify-content: left;
   align-items: center;
   max-width: 1200px;
   margin: 0 auto;
@@ -61,7 +61,7 @@ body {
   margin-bottom: 10px;
 }
 
-.subtitle {
+h1 {
   font-size: 1.2rem;
   font-weight: bold;
   font-style: italic;
