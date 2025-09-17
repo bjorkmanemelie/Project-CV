@@ -78,12 +78,19 @@ main {
     padding: 40px 20px;
 }
 
+.flex-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .section {
     background-color: white;
     margin: 30px 0;
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
 }
 
 .section h2 {
