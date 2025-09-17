@@ -1,116 +1,159 @@
+/* Reset och grundläggande styling */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-  font-family: sans-serif;
-  color: #5a5a58;
-  background-color: whitesmoke;
-  height: 100vh;
-}
-img {
-  width: 100px;
-  border-radius: 10px;
-  float: left;
+    font-family: sans-serif;
+    color: #5a5a58;
+    background-color: whitesmoke;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
-.h1 {
-  font-size: 12px;
-  font-weight: bold;
-  text-align: center;
-  font-style: italic;
-}
-
-h2 {
-  font-size: 28px;
-  color: #e3dbb3;
-}
-
-h3 {
-  font-size: 28px;
-  color: #e3dbb3;
-}
-
-p {
-  font-size: 16px;
-  color: #e3dbb3;
-}
 
 .navbar {
-  background-color: #5a5a58;
-  padding: 20px;
-  margin: 50px;
-  height: 5rem;
+    background-color: #5a5a58;
+    padding: 20px;
 }
 
 .navbar ul {
-  list-style: none;
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-.navbar ul li a {
-  text-decoration: none;
-  color: #e3dbb3;
-  font-size: 1.1rem;
-  cursor: pointer;
+.navbar a {
+    text-decoration: none;
+    color: #e3dbb3;
+    font-size: 1.1rem;
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
 }
 
-nav ul li a:hover {
-  color: #4362f0;
-  background-color: whitesmoke;
-  border-radius: 10px;
+.navbar a:hover {
+    color: #4362f0;
+    background-color: whitesmoke;
+}
+
+.navbar img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+
+.header {
+    text-align: center;
+    padding: 50px 20px;
 }
 
 .logo {
-  font-size: 3rem;
-  font-weight: bold;
-  font-family: sans-serif;
-  color: #5a5a58;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #5a5a58;
+    margin-bottom: 10px;
 }
 
-.nav-header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 30px;
+.subtitle {
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-style: italic;
+    color: #5a5a58;
 }
 
-.nav-header img {
-  width: 100px;
-  /* height: 100px; */
+
+main {
+    flex: 1;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
 }
 
-.nav-header button {
-  background: #5a5a58;
-  color: #e3dbb3;
-  font-weight: bold;
-  font-size: 0.9rem;
-  padding: 20px 20px;
-  width: 10%;
-  height: 10%;
+.section {
+    background-color: white;
+    margin: 30px 0;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
 
-.textinfooter {
-  font-family: sans-serif;
-  color: #e3dbb3;
-  margin-top: 100%;
-  font-size: 0.9rem;
-  font-weight: bold;
-  text-align: center;
+.section h2 {
+    font-size: 2rem;
+    color: #5a5a58;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #e3dbb3;
+    padding-bottom: 10px;
 }
+
+.section p {
+    font-size: 1rem;
+    color: #5a5a58;
+    margin-bottom: 15px;
+}
+
+.profile-img {
+    width: 120px;
+    height: 150px;
+    border-radius: 10px;
+    float: left;
+    margin: 0 20px 20px 0;
+    object-fit: cover;
+}
+
+.quote {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #e3dbb3;
+    background-color: #5a5a58;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 30px 0;
+}
+
 
 footer {
-  position: relative;
-  bottom: 0;
-  width: 100%;
-  height: 5rem;
-  margin-top: 0;
-  margin-bottom: 0;
-  background-color: #5a5a58;
-  text-align: center;
+    background-color: #5a5a58;
+    color: #e3dbb3;
+    text-align: center;
+    padding: 20px;
+    margin-top: auto;
+}
+
+
+@media (max-width: 768px) {
+    .logo {
+        font-size: 2rem;
+    }
+    
+    .navbar ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .profile-img {
+        float: none;
+        display: block;
+        margin: 0 auto 20px auto;
+    }
+    
+    .section {
+        padding: 20px;
+    }
+}
+
+@media (min-width: 1200px) {
+    body {
+        font-size: 2rem;
+    }
+
 }
