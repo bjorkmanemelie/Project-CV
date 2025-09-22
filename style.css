@@ -148,28 +148,47 @@ footer {
   font-size: 12px;
 }
 
-/* Responsiv design */
-@media (max-width: 768px) {
+/* Base styles - Mobile först */
+.logo {
+  font-size: 2rem;
+}
+
+.navbar ul {
+  flex-direction: column;
+  gap: 10px;
+}
+
+.profile-img {
+  display: block;
+  margin: 0 auto 20px auto;
+}
+
+.section {
+  padding: 20px;
+}
+
+/* Moible first  */
+@media (min-width: 769px) {
   .logo {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   .navbar ul {
-    flex-direction: column;
-    gap: 10px;
+    flex-direction: row;
+    gap: 20px; /* Större gap för desktop */
   }
 
   .profile-img {
-    float: none;
-    display: block;
-    margin: 0 auto 20px auto;
+    float: left;
+    margin: 0 20px 20px 0;
   }
 
   .section {
-    padding: 20px;
+    padding: 40px; /* Mer padding för större skärmar */
   }
 }
 
+/* Stora skärmar */
 @media (min-width: 1200px) {
   body {
     font-size: 2rem;
