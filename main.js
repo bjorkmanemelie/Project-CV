@@ -53,7 +53,7 @@
 //EVENT LISTENERS
 const btn = document.querySelector(".btn"); //event
 
-btn.addEventListener("click", (e) => { //this change when button been clicked., (e) event parameter.
+btn.addEventListener("mouseover", (e) => { //this change when button been clicked., (e) event parameter.
     e.preventDefault(); //prevents the default behavior of the button, which is to submit a form
     document.querySelector("#my-form").style.background = "#ccc"; //changes the background color of the form to grey when the button is clicked
     document.querySelector("body").classList.add("bg-dark"); //adds a class to the body element, which changes the background color to dark
