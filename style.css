@@ -98,7 +98,7 @@ main {
 }
 
 .section h2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #5a5a58;
   margin-bottom: 20px;
   border-bottom: 3px solid #e3dbb3;
@@ -122,7 +122,7 @@ main {
 
 .quote {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 12px;
   font-weight: bold;
   font-style: italic;
   color: #e3dbb3;
