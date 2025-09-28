@@ -33,18 +33,30 @@
 
 
 
-const ul =document.querySelector(".items");
+// const ul =document.querySelector(".items");
 
-// ul.remove(); //removes the entire ul element
+// // ul.remove(); //removes the entire ul element
 
-//now i want to get rid of the last item in the list
-// ul.lastElementChild.remove(); //removes the last item in the list
+// //now i want to get rid of the last item in the list
+// // ul.lastElementChild.remove(); //removes the last item in the list
 
-ul.firstElementChild.textContent ="Hola"; //taking item from the dom and changing the text content
-ul.children[1].innerText = "Hello"; //taking item from the dom and changing the text content
-ul.lastElementChild.innerHTML = "<h1>Bye</h1>"; //taking item from the dom and changing the text content, can also add html elements
+// ul.firstElementChild.textContent ="Hola"; //taking item from the dom and changing the text content
+// ul.children[1].innerText = "Hello"; //taking item from the dom and changing the text content
+// ul.lastElementChild.innerHTML = "<h1>Bye</h1>"; //taking item from the dom and changing the text content, can also add html elements
 
-//change some styles
+// //change some styles
 
-const btn = document.querySelector(".btn");
-btn.style.background = "red"; //changes the background color of the button to red
+// const btn = document.querySelector(".btn");
+// btn.style.background = "red"; //changes the background color of the button to red
+
+
+//EVENT LISTENERS
+const btn = document.querySelector(".btn"); //event
+
+btn.addEventListener("click", (e) => { //this change when button been clicked., (e) event parameter.
+    e.preventDefault(); //prevents the default behavior of the button, which is to submit a form
+    document.querySelector("#my-form").style.background = "#ccc"; //changes the background color of the form to grey when the button is clicked
+    document.querySelector("body").classList.add("bg-dark"); //adds a class to the body element, which changes the background color to dark
+    // console.log(e.target.className); //logs the element that was clicked
+
+})
