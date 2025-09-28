@@ -31,3 +31,20 @@
 
 // items.forEach((item) => console.log(item)); //loops through each item in the node list and logs it to the console.
 
+
+
+const ul =document.querySelector(".items");
+
+// ul.remove(); //removes the entire ul element
+
+//now i want to get rid of the last item in the list
+// ul.lastElementChild.remove(); //removes the last item in the list
+
+ul.firstElementChild.textContent ="Hola"; //taking item from the dom and changing the text content
+ul.children[1].innerText = "Hello"; //taking item from the dom and changing the text content
+ul.lastElementChild.innerHTML = "<h1>Bye</h1>"; //taking item from the dom and changing the text content, can also add html elements
+
+//change some styles
+
+const btn = document.querySelector(".btn");
+btn.style.background = "red"; //changes the background color of the button to red
