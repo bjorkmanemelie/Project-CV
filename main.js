@@ -1,3 +1,10 @@
+
+
+
+
+
+
+
 // //grabbing this variable from the DOM
 // const myForm = document.querySelector("#my-form");
 // const nameInput = document.querySelector("#name");
