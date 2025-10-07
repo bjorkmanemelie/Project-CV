@@ -257,7 +257,7 @@ footer {
 }
 
 .footer-contact p {
-  font-size: 0.95rem;
+  font-size: 0.8rem;
   margin-bottom: 12px;
   opacity: 0.9;
 }
@@ -268,10 +268,11 @@ footer {
   justify-content: flex-end;
 }
 
+
 .footer-contact img {
   transition: all 0.3s ease;
   opacity: 0.8;
-  filter: brightness(0) invert(1);
+  background: none !important;
 }
 
 .footer-contact img:hover {
