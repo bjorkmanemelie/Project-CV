@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang=en">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>E.Björkman</title>
+    <title>Emelie Björkman - JavaScript Student</title>
 </head>
 
 <body>
@@ -14,17 +14,15 @@
         <ul>
             <li><a href="#home">HOME</a></li>
             <li><a href="#about">ABOUT ME</a></li>
-            <li><a href="#experience">EXPERIENCE</a></li>
-
+            <li><a href="#projects">MY PROJECTS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
         </ul>
     </nav>
-
 
     <header class="header" id="home">
         <div class="logo">Emelie Björkman</div>
         <h1>FULLSTACK JAVASCRIPT STUDENT</h1>
     </header>
-
 
     <main>
         <div class="flex-container">
@@ -33,41 +31,72 @@
                 <img src="images/1680022918.672724-3F665F20-CFFB-4987-8697-61F70E4E5742.jpeg" alt="Profilbild av Emelie"
                     class="profile-img">
                 <p>Hi there - I'm Emelie. I'm currently studying to become a Fullstack Javascript Developer at Chas
-                    Academy in Malmö.
+                    Academy.</p>
+                <p>I'm passionate about learning new technologies and creating user-friendly web applications. Before
+                    this, I studied frontend development for a year and have a background in Business & Administration.
                 </p>
-                <p>I'm passionate about learning new technologies and creating user-friendly web applications.</p>
+                <p>I love the combination of creativity and problem-solving that web development offers!</p>
             </section>
         </div>
 
         <div class="flex-container">
-            <section class="section" id="experience">
-                <h2>EXPERIENCE</h2>
-                <p><strong>Education:</strong> Business & Administration at Söderportgymnasiet</p>
+            <section class="section" id="projects">
+                <h2>MY PROJECTS</h2>
+                <p>Here are some projects I've been working on so far:</p>
+
+                <div class="project">
+                    <h3>🌐 Portfolio Website</h3>
+                    <p>My personal portfolio built with HTML, CSS, and JavaScript. Features responsive design and smooth
+                        animations.</p>
+                    <a href="https://github.com/bjorkmanemelie/Project-CV" target="_blank">View on GitHub →</a>
+                </div>
+
+                <div class="project">
+                    <h3>💬 Forum Application</h3>
+                    <p>A fullstack forum platform built during my frontend studies. Features include user posts,
+                        comments, and a REST
+                        API backend. Built with JavaScript, Node.js, and database integration.</p>
+                    <a href="https://github.com/bjorkmanemelie/Forum" target="_blank">View on GitHub →</a>
+                </div>
+
+                <p><strong>Technologies I'm learning:</strong> HTML, CSS, JavaScript. To be continued...</p>
             </section>
         </div>
 
         <div class="flex-container">
-            <section class="section">
-                <h2>MIN MOTIVATION</h2>
-                <p> hdjsklffö</p>
+            <section class="contact-section" id="contact">
+                <h2>Let's Connect!</h2>
+                <p>If you'd like to get in touch, feel free to reach out via email or connect with me on LinkedIn or
+                    GitHub.</p>
+                <a href="mailto:bjorkmanemelie@hotmail.com" class="contact-btn">📧 Send me an email</a>
             </section>
-        </div>
-        <div class="flex-container">
-            <div class="quote">
-                "NOTHING WORTH HAVING COMES EASY"
-            </div>
         </div>
 
     </main>
 
-
     <footer>
-        <p>© E.Björkman</p>
-        <li><a href="https://www.linkedin.com/in/emelie-bj%C3%B6rkman-06826b138/" target="_blank">
-                <img src="/images/linkedIn.png" alt="LinkedIn profil" widht:"60" height="60">
-            </a></li>
+        <div class="footer-content">
+            <div class="footer-quote">
+                "NOTHING WORTH HAVING COMES EASY"
+            </div>
+            <div class="footer-contact">
+                <h3>Emelie Björkman</h3>
+                <p>bjorkmanemelie@hotmail.com</p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/emelie-bj%C3%B6rkman-06826b138/" target="_blank"
+                        aria-label="LinkedIn">
+                        <img src="/images/linkedIn.png" alt="LinkedIn" width="50" height="50">
+                    </a>
+                    <a href="https://github.com/bjorkmanemelie" target="_blank" aria-label="GitHub">
+                        <img src="/images/github.png" alt="GitHub" width="50" height="50">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 E.Björkman</p>
+        </div>
     </footer>
-
 
     <script src="main.js"></script>
 </body>
