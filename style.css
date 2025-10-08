@@ -211,6 +211,13 @@ main {
   transition: all 0.3s ease;
   border: 2px solid rgba(227, 219, 179, 0.3);
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+
+  animation-duration: 3s; /*defines how long the animation will run*/
+  animation-name: spin; 
+  animation-timing-function: ease; /*makes it more smooth*/
+  animation-delay: 1s; /*wait 1 second before starting the animation*/
+  /* animation-iteration-count: infinite; infinite loop, perfect for loops */
+  
 }
 
 .contact-btn:hover {
@@ -218,6 +225,22 @@ main {
   transform: translateY(-3px);
   box-shadow: 0 6px 25px rgba(0, 0, 0, 0.2);
   border-color: #e3dbb3;
+}
+
+@keyframes spin {
+  0% {
+    
+  }
+  50% {
+    scale: 2;
+    transform: rotate(360deg);
+    border-radius: 0;
+  }
+  100% { 
+    transform: rotate(360deg);
+    /* border-radius: 15%; */
+    scale: 2;
+  }
 }
 
 footer {
