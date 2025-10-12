@@ -25,7 +25,7 @@ html {
   backdrop-filter: blur(10px);
   padding: 15px 20px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  z-index: 1000;
+  z-index: 1000; 
 }
 
 .navbar ul {
@@ -217,7 +217,7 @@ main {
   animation-timing-function: ease; /*makes it more smooth*/
   animation-delay: 1s; /*wait 1 second before starting the animation*/
   /* animation-iteration-count: infinite; infinite loop, perfect for loops */
-  
+
 }
 
 .contact-btn:hover {
