@@ -1,15 +1,15 @@
-const btnHero = document.querySelector(".btn-hero");
-btnHero.addEventListener("click", () => {
-  btnHero.style.backgroundColor = "#e3dbb3";
-  btnHero.style.color = "rgba(90, 90, 88, 0.9)";
+const btn = document.querySelector(".contact-btn");
+btn.addEventListener("click", () => {
+  btn.style.backgroundColor = "#e3dbb3";
+  btn.style.color = "rgba(90, 90, 88, 0.9)";
 });
 
 const originalBgColor = "rgba(90, 90, 88, 0.9)";
 const originalTextColor = "#e3dbb3";
 
-btnHero.addEventListener("mouseleave", () => {
-  btnHero.style.backgroundColor = originalBgColor;
-  btnHero.style.color = originalTextColor;
+btn.addEventListener("mouseleave", () => {
+  btn.style.backgroundColor = originalBgColor;
+  btn.style.color = originalTextColor;
 });
 
 // //grabbing this variable from the DOM
